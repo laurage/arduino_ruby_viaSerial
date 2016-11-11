@@ -11,11 +11,11 @@ sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
  puts "uu"
 while(true) do
 
- message = sp.gets.chomp
+ #message = sp.gets.chomp
 
- # sp.write('a')
+ sp.write('a')
  p 'yo'
 
- p message
+ #p message
 
 end
