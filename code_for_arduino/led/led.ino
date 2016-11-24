@@ -11,11 +11,11 @@ void setup() {
 void loop() {
 
   while (Serial.available() > 0) {  // check if serial port has data
-    
+
    // READ
   /*  char c = Serial.read();              // read the byte
     readString += c;
-  
+
    readString.trim();
    if (readString.length() > 0){
     if (c == '1'){
@@ -26,11 +26,12 @@ void loop() {
         delay(500);              // wait 500 milliseconds
        }
     }
-    
-   }*/
-  }
 
+   }*/
+
+  }
     // WRITE
-    Serial.print("Hello World");
-  
+    Serial.print("h");
+
+
 }

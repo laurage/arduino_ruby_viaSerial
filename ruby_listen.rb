@@ -14,8 +14,6 @@ while(true) do
   message = sp.gets
   p message unless message.nil?
 
-
-
   # WRITE
   # sp.write('1')
   # p 'yo'
