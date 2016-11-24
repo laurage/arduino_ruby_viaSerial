@@ -8,14 +8,18 @@ parity = SerialPort::NONE
 
 sp = SerialPort.new(port_str, baud_rate, data_bits, stop_bits, parity)
 
- puts "uu"
 while(true) do
 
- #message = sp.gets.chomp
+  # READ
+  message = sp.gets
+  p message unless message.nil?
 
- sp.write('a')
- p 'yo'
 
- #p message
+
+  # WRITE
+  # sp.write('1')
+  # p 'yo'
+
+
 
 end

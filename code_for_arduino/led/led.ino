@@ -1,5 +1,6 @@
 uint8_t c;
 int i;
+String readString;
 
 void setup() {
   Serial.begin(9600);      // set baud rate
@@ -8,22 +9,28 @@ void setup() {
 }
 
 void loop() {
+
   while (Serial.available() > 0) {  // check if serial port has data
     
    // READ
-    c = Serial.read();              // read the byte
-    
-    if (c == 'a')
-      {
+  /*  char c = Serial.read();              // read the byte
+    readString += c;
+  
+   readString.trim();
+   if (readString.length() > 0){
+    if (c == '1'){
       for (i=0; i<5; i++){
         digitalWrite(12, HIGH);  // turn on LED
         delay(500);              // wait 500 milliseconds
         digitalWrite(12, LOW);   // turn off LED
         delay(500);              // wait 500 milliseconds
-      }
+       }
     }
-
-   /* // WRITE
-    Serial.print("Hello World");*/
+    
+   }*/
   }
+
+    // WRITE
+    Serial.print("Hello World");
+  
 }
