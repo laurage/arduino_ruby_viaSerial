@@ -1,6 +1,6 @@
 #ARDUINO - RUBY via Serial Communication
 
-![image Arduino](https://github.com/laurage/arduino_ruby_viaSerial/blob/master/ArduinoRuby.JPG)
+![image Arduino](https://github.com/laurage/arduino_ruby_viaSerial/blob/master/ArduinoRuby2.JPG)
 
 ##Introduction
 
